@@ -74,7 +74,7 @@ import { a, easings, useSpring } from '@react-spring/three'
 
 <iframe
 	src='https://suni-3d.vercel.app/map-01'
-	style={{ border: 0 }}
+	style={{ border: 0, pointerEvents: 'none' }}
 	allowfullscreen
 	width="100%"
 	height="500px"
